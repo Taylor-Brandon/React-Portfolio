@@ -21,6 +21,8 @@ const Header = () => {
             return <Contact />
             case 'resume':
             return <Resume />
+            default:
+            return <Info />
          }
     };
     const getLinkStyle = (link) => ({
