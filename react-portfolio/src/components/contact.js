@@ -5,6 +5,10 @@ export default function Contact() {
         <div>
             <h1>Contact</h1>
             <form>
+            <div className='mb-3'>
+                <label for="name" class="form-label">Name</label>
+                <input type="name" class="form-control" id="name-input" aria-describedby="name-Help"></input>
+                </div>
                 <div className='mb-3'>
                 <label for="email" class="form-label">Email address</label>
                 <input type="email" class="form-control" id="email-input" aria-describedby="emailHelp"></input>
