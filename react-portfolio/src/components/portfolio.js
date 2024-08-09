@@ -11,12 +11,12 @@ export default function Portfolio() {
         <div>
             <h1>Portfolio</h1>
             <div>
-                <a href='https://github.com/Taylor-Brandon/ReadmeFile-Generator'>read me</a>
-                <a href='https://github.com/Taylor-Brandon/Notes-App'>notes app</a>
-                <a href='https://github.com/Taylor-Brandon/E-Commerce'>e-commerce</a>
-               <a href='https://github.com/Taylor-Brandon/Employee-Database'>employee database</a>
-               <a href='https://github.com/Taylor-Brandon/Css-Wireframe'>Work Day Planner</a>
-                <a href='https://github.com/Taylor-Brandon/Blog-Website'>blog website</a>
+                <a href='https://github.com/Taylor-Brandon/ReadmeFile-Generator'><img id='readme' src={Readme} alt='reademe project'/></a>
+                <a href='https://github.com/Taylor-Brandon/Notes-App'><img id='notes' src={Notes} alt='notes app project'/></a>
+                <a href='https://github.com/Taylor-Brandon/E-Commerce'><img id='commerce' src={Commerce} alt='E-commerce project'/></a>
+               <a href='https://github.com/Taylor-Brandon/Employee-Database'><img id='employee' src={Employee} alt='Employee database project'/></a>
+               <a href='https://github.com/Taylor-Brandon/Project-Planner'><img id='planner' src={Planner} alt='workday planner project'/></a>
+                <a href='https://github.com/Taylor-Brandon/Blog-Website'><img id='blog' src={Blog} alt='Blog project'/></a>
                 </div>
         </div>
     );
