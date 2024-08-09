@@ -6,7 +6,7 @@ import img from '../images/img.png';
 export default function Info() {
     return (
         <div>
-            <p id='quote1'>“Three chief virtues of a programmer are; laziness, impatience, hubris”</p>
+            <p id='quote1'>“Three chief virtues of a programmer are: laziness, impatience, hubris”</p>
             <p id='quote2'>-Larry Wall</p>
             <img id='avatar' src={img} alt='me' />
             <p id='intro-par'>Hello! My name is Taylor Brandon, an ardent and dedicated full-stack web developer. For almost two years, I have been mastering my skills in HTML, CSS, JavaScript, web APIs, third-party APIs, server-side APIs, Node.js, object-oriented programming, Express, SQL, object-relational mapping, model-view-controller programming, regular expressions, Mongoose, progressive web applications, React, and MERN applications.
