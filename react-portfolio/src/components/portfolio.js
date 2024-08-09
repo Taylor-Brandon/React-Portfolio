@@ -9,8 +9,7 @@ import Blog from '../images/blog.png';
 export default function Portfolio() {
     return (
         <div>
-            <h1>Portfolio</h1>
-            <div>
+            <div className='projects'>
                 <a href='https://github.com/Taylor-Brandon/ReadmeFile-Generator'><img id='readme' src={Readme} alt='reademe project'/></a>
                 <a href='https://github.com/Taylor-Brandon/Notes-App'><img id='notes' src={Notes} alt='notes app project'/></a>
                 <a href='https://github.com/Taylor-Brandon/E-Commerce'><img id='commerce' src={Commerce} alt='E-commerce project'/></a>
