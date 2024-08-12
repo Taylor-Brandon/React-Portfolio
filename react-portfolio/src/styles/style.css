@@ -45,52 +45,36 @@ li{
     margin-right: 400px;
     font-size: 20px;
 }
-.projects{
-    padding: 20px;
-    margin-top: 200px;
+#form-card{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    margin-top: 200px;
+}
+.projects{
+    margin-top: 400px;
+    margin-left: 500px;
 }
 #readme{
-    height: 200px;
-    width: 200px;
-    margin-left: 20px;
-    margin-right: 30px;
-    border-radius: 100px;
+    height: 500px;
+    width: 700px;
 }
 #notes{
-    height: 200px;
-    width: 200px;
-    margin-left: 20px;
-    margin-right: 30px;
-    border-radius: 100px;
+    height: 500px;
+    width: 700px;
 }
 #commerce{
-    height: 200px;
-    width: 200px;
-    margin-left: 20px;
-    margin-right: 30px;
-    border-radius: 100px;
+    height: 500px;
+    width: 700px;
 }
 #employee{
-    height: 200px;
-    width: 200px;
-    margin-left: 20px;
-    margin-right: 30px;
-    border-radius: 100px;
-}
-#planner{
-    height: 200px;
-    width: 200px;
-    margin-left: 20px;
-    margin-right: 30px;
-    border-radius: 100px;
+    height: 500px;
+    width: 700px;
 }
 #blog{
-    height: 200px;
-    width: 200px;
-    margin-left: 20px;
-    margin-right: 30px;
-    border-radius: 100px;
+    height: 500px;
+    width: 700px;
 }
+  
+
+
+

@@ -38,12 +38,14 @@ export default function Contact() {
     };
 
     return (
-        <div>
-            <h1>Contact</h1>
+        <div className='container d-flex justify-content-center'>
+        <div id='form-card' className='card h-25 w-25'>
+            <div className='card-body'>
             <form className='form'>
                 <div className='mb-3'>
                     <label className="form-label">Name</label>
                     <input 
+                        className='form-control'
                         value={name} 
                         name="name" 
                         onChange={handleInputChange} 
@@ -55,6 +57,7 @@ export default function Contact() {
                 <div className='mb-3'>
                     <label className="form-label">Email address</label>
                     <input 
+                        className='form-control'
                         value={email} 
                         name="email" 
                         onChange={handleInputChange} 
@@ -65,6 +68,7 @@ export default function Contact() {
                 <div className="mb-3">
                     <label className="form-label">Message</label>
                     <input 
+                        className='form-control'
                         value={message} 
                         name="message" 
                         onChange={handleInputChange} 
@@ -74,6 +78,8 @@ export default function Contact() {
                 </div>
                 <button type="submit" onClick={handleFormSubmit} className="btn btn-primary">Submit</button>
             </form>
+            </div>
+        </div>
         </div>
     );
 }
