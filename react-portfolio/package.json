@@ -13,6 +13,7 @@
     "bootstrap-icons": "^1.11.3",
     "cssproperties": "^0.0.1",
     "dotenv": "^16.4.5",
+    "rc-queue-anim": "^2.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-scripts": "5.0.1",
