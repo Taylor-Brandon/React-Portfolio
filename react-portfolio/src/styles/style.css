@@ -45,13 +45,8 @@ li{
     margin-right: 400px;
     font-size: 20px;
 }
-#form-card{
-    display: flex;
-    justify-content: center;
-    margin-top: 200px;
-}
 .projects{
-    margin-top: 400px;
+    margin-top: 200px;
     margin-left: 500px;
 }
 #readme{
@@ -74,6 +69,29 @@ li{
     height: 500px;
     width: 700px;
 }
+#res-card{
+    background: none;
+    margin-top: 200px;
+    margin-left: 380px;
+}
+#resume{
+    text-align: center;
+    color: white;
+    border-right: 2px solid white;
+    width: 25%;
+    margin-top: -300px;
+}
+#form-card{
+    display: flex;
+    justify-content: center;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    margin-top: 300px;
+}
+
   
 
 

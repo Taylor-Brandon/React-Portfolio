@@ -24,13 +24,19 @@ export default function App() {
             <div id='portfolio'>
             <Portfolio />
             </div>
+            <div id='res-card' className='card'>
+                <div className='card-body'>
             <div id='contact'>
             <Contact />
             </div>
             <div id='resume'>
             <Resume />
             </div>
+            </div>
+            </div>
+            <div id='footer'>
             <Footer />
+            </div>
         </div>
     );
 }
