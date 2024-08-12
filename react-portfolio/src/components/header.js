@@ -1,9 +1,5 @@
 import React, { useState } from 'react';
 import QueueAnim from 'rc-queue-anim';
-import Info from './info';
-import Portfolio from './portfolio';
-import Contact from './contact';
-import Resume from './resume';
 import '../styles/style.css';
 
 const Header = () => {
@@ -20,13 +16,14 @@ const Header = () => {
   };
 
   const getLinkStyle = (link) => ({
-    color: currentLink === link ? 'red' : 'white',
+    textDecoration: currentLink === link ? 'underline' : 'none',
+
   });
 
   return (
     <div>
       <nav>
-        <h1 id='nav-name'>Taylor Brandon</h1>
+      <h1 id='nav-name'>TB</h1>
         <i
           id='icon'
           className="bi bi-list"

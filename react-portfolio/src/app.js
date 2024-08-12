@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/header';
+import Intro from './components/intro'
 import Info from './components/info';
 import Portfolio from './components/portfolio';
 import Contact from './components/contact';
@@ -18,6 +19,9 @@ export default function App() {
             fontFamily: "Georgia"
         }}>
             <Header />
+            <div id='intro'>
+                <Intro />
+            </div>
             <div id='info'>
             <Info />
             </div>

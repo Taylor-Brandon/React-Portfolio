@@ -1,5 +1,5 @@
 import React from 'react';
-import Readme from '../images/Readme.png';
+import Readme from '../images/readme.png';
 import Notes from '../images/Notes.png';
 import Commerce from '../images/commerce.png';
 import Employee from '../images/emp.png';
