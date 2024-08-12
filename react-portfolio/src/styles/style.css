@@ -1,0 +1,98 @@
+#nav-name{
+    margin-left: 40px;
+    font-family: "Crimson Text", serif;
+}
+#icon{
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+    margin-top: -50px;
+    font-size: 40px;
+}
+.links-list{
+    display: flex;
+    justify-content: end;
+    font-family: "Crimson Text", serif;
+    font-size: 25px;
+
+}
+li{
+    text-decoration: none;
+}
+#quote1{
+    text-align: center;
+    font-family: "Crimson Text", serif;
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 40px;
+}
+#quote2{
+    text-align: center;
+    font-family: "Crimson Text", serif;
+    font-size: 25px;
+    padding: 5px;
+}
+#avatar{
+    display: flex;
+    justify-content: center;
+    margin-left: 750px;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+#intro-par{
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: 20px;
+}
+.projects{
+    margin-top: 200px;
+    margin-left: 500px;
+}
+#readme{
+    height: 500px;
+    width: 700px;
+}
+#notes{
+    height: 500px;
+    width: 700px;
+}
+#commerce{
+    height: 500px;
+    width: 700px;
+}
+#employee{
+    height: 500px;
+    width: 700px;
+}
+#blog{
+    height: 500px;
+    width: 700px;
+}
+#res-card{
+    background: none;
+    margin-top: 200px;
+    margin-left: 380px;
+}
+#resume{
+    text-align: center;
+    color: white;
+    border-right: 2px solid white;
+    width: 25%;
+    margin-top: -300px;
+}
+#form-card{
+    display: flex;
+    justify-content: center;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    margin-top: 300px;
+}
+
+  
+
+
+
