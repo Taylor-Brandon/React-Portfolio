@@ -72,13 +72,17 @@
     height: 500px;
     width: 700px;
 }
+#planner{
+    height: 500px;
+    width: 700px;
+}
 #blog{
     height: 500px;
     width: 700px;
 }
 #res-card{
     background: none;
-    margin-top: 200px;
+    margin-top: 400px;
     margin-left: 380px;
 }
 #resume{

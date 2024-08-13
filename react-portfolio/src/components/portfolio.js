@@ -3,7 +3,7 @@ import Readme from '../images/readme.png';
 import Notes from '../images/Notes.png';
 import Commerce from '../images/commerce.png';
 import Employee from '../images/emp.png';
-import Planner from '../images/planner.png';
+import Planner from '../images/Planner.png';
 import Blog from '../images/blog.png';
 import { Carousel } from 'antd';
 
@@ -36,6 +36,11 @@ export default function Portfolio() {
         <div style={contentStyle}>
             <a href='https://github.com/Taylor-Brandon/Employee-Database'>
                 <img id='employee' src={Employee} alt='Employee database project' style={{ maxHeight: '100%', maxWidth: '100%' }}/>
+            </a>
+        </div>
+        <div style={contentStyle}>
+            <a href='https://github.com/Taylor-Brandon/Project-Planner'>
+                <img id='planner' src={Planner} alt='planner project' style={{ maxHeight: '100%', maxWidth: '100%' }}/>
             </a>
         </div>
         <div style={contentStyle}>
