@@ -1,49 +1,48 @@
 #nav-name{
-    margin-left: 40px;
+    margin-left: 10px;
     font-family: "Crimson Text", serif;
 }
 #icon{
     display: flex;
     justify-content: end;
-    margin-right: 30px;
-    margin-top: -50px;
+    margin-left: 10px;
     font-size: 40px;
+    margin-top: -55px;
 }
 .links-list{
     display: flex;
     justify-content: end;
     font-family: "Crimson Text", serif;
     font-size: 25px;
+    list-style: none;
+    margin-right: 10px;
 
 }
-li{
+#intro{
+    margin-bottom: 800px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+#name{
+    font-size: 80px;
+
+}
+#intro-btn{
+    color: white;
+    width: 40px;
+    height: 20px;
+    padding: 10px;
     text-decoration: none;
+    border: 2px solid white;
+    border-radius: 3px;
 }
-#quote1{
-    text-align: center;
-    font-family: "Crimson Text", serif;
-    font-style: italic;
-    font-size: 30px;
-    margin-top: 40px;
+#info{
+    margin-bottom: 600px;
 }
-#quote2{
-    text-align: center;
-    font-family: "Crimson Text", serif;
-    font-size: 25px;
-    padding: 5px;
-}
-#avatar{
-    display: flex;
-    justify-content: center;
-    margin-left: 750px;
-    text-align: center;
-    height: 200px;
-    width: 200px;
-}
+
 #intro-par{
-    margin-left: 400px;
-    margin-right: 400px;
-    font-size: 20px;
+    text-align: center;
+    font-size: 27px;
 }
 .projects{
     margin-top: 200px;
@@ -53,25 +52,59 @@ li{
     height: 500px;
     width: 700px;
 }
+#read-caption{
+    color: white;
+    text-align: center; 
+    display: flex;
+}
 #notes{
     height: 500px;
     width: 700px;
+}
+#note-caption{
+    color: white;
+    text-align: center; 
+    display: flex;
 }
 #commerce{
     height: 500px;
     width: 700px;
 }
+#commerce-caption{
+    color: white;
+    text-align: center; 
+    display: flex;
+}
 #employee{
     height: 500px;
     width: 700px;
+}
+#emp-caption{
+    color: white;
+    text-align: center; 
+    display: flex;
+}
+#planner{
+    height: 500px;
+    width: 700px;
+}
+#planner-caption{
+    color: white;
+    text-align: center; 
+    display: flex;
 }
 #blog{
     height: 500px;
     width: 700px;
 }
+#blog-caption{
+    color: white;
+    text-align: center; 
+    display: flex;
+}
 #res-card{
     background: none;
-    margin-top: 200px;
+    margin-top: 400px;
     margin-left: 380px;
 }
 #resume{

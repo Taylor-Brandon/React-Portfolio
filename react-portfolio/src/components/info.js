@@ -6,16 +6,10 @@ import img from '../images/img.png';
 export default function Info() {
     return (
         <div>
-            <p id='quote1'>“Three chief virtues of a programmer are: laziness, impatience, hubris”</p>
-            <p id='quote2'>-Larry Wall</p>
-            <img id='avatar' src={img} alt='me' />
-            <p id='intro-par'>Hello! My name is Taylor Brandon, an ardent and dedicated full-stack web developer. For almost two years, I have been mastering my skills in HTML, CSS, JavaScript, web APIs, third-party APIs, server-side APIs, Node.js, object-oriented programming, Express, SQL, object-relational mapping, model-view-controller programming, regular expressions, Mongoose, progressive web applications, React, and MERN applications.
-
-My journey in web development has been driven by a passion for learning and a commitment to producing innovative and user-friendly applications.
-Throughout this journey, I have had the privilege of working on diverse projects, ranging from personal endeavors and team activities in a boot camp course through Columbia University to developing a professional database for a business in which I am immeasurably passionate.
-
-I am eager to continue learning, innovating, and exploring the power of technology. This portfolio demonstrates my skills and projects, exemplifying my dedication and proficiency in delivering high-quality work.
-Thank you so much for visiting, and please feel free to contact me with any inquiries!</p>
+            <p id='intro-par'>Thank you for taking the time to visit my website. My name is Taylor Brandon, and for nearly two years, I've been dedicated to mastering full-stack development. My journey began with an eagerness to learn and quickly adapt, leading me to work on diverse projects—from personal endeavors and team activities in Columbia University's boot camp to developing a professional database for a business I'm passionate about.
+During this time, I've discovered a deep commitment to innovation, creating user-friendly applications, and a newfound love for problem-solving. I've also developed a profound appreciation for technology and its constant evolution, and I'm driven to connect with and learn from others.
+This portfolio reflects my dedication and proficiency in HTML, CSS, JavaScript, web APIs, server-side APIs, Node.js, OOP, Express, SQL, ORM, MVC, Regex, Mongoose, PWA, React, and MERN applications. I invite you to explore my work and welcome any feedback or inquiries.
+</p>
         </div>
     );
 }
