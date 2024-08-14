@@ -39,18 +39,10 @@
 #info{
     margin-bottom: 600px;
 }
-#avatar{
-    display: flex;
-    justify-content: center;
-    margin-left: 750px;
-    text-align: center;
-    height: 200px;
-    width: 200px;
-}
+
 #intro-par{
-    margin-left: 400px;
-    margin-right: 400px;
-    font-size: 20px;
+    text-align: center;
+    font-size: 27px;
 }
 .projects{
     margin-top: 200px;
@@ -60,25 +52,55 @@
     height: 500px;
     width: 700px;
 }
+#read-caption{
+    color: white;
+    text-align: center; 
+    display: flex;
+}
 #notes{
     height: 500px;
     width: 700px;
+}
+#note-caption{
+    color: white;
+    text-align: center; 
+    display: flex;
 }
 #commerce{
     height: 500px;
     width: 700px;
 }
+#commerce-caption{
+    color: white;
+    text-align: center; 
+    display: flex;
+}
 #employee{
     height: 500px;
     width: 700px;
+}
+#emp-caption{
+    color: white;
+    text-align: center; 
+    display: flex;
 }
 #planner{
     height: 500px;
     width: 700px;
 }
+#planner-caption{
+    color: white;
+    text-align: center; 
+    display: flex;
+}
 #blog{
     height: 500px;
     width: 700px;
+}
+#blog-caption{
+    color: white;
+    text-align: center; 
+    display: flex;
 }
 #res-card{
     background: none;
