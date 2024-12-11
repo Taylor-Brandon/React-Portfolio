@@ -41,6 +41,20 @@
     color: black;
     transition: all 0.5s ease-out;
 }
+#profile-img{
+    width: 250px;
+    height: 300px;
+    border-radius: 150px;
+    margin-top: 100px;
+    margin-left: 330px;
+}
+.text-section{
+    display: flex;
+    justify-content: end;
+    margin-left: 750px;
+    margin-right: 250px;
+    margin-top: -280px;
+}
 .nav-item:hover{
     font-size: 20px;
 }
