@@ -1,8 +1,11 @@
 import React from 'react';
+import Profile from '../images/profile.png';
 
 export default function Info() {
     return (
         <div>
+            <img id='profile-img' src={Profile}></img>
+            <div className='text-section'>
             <p>Thank you for taking the time to visit my website. My name is Taylor Brandon, and for nearly two years,
              I've been dedicated to mastering full-stack development. My journey began with an eagerness to learn and quickly adapt,
             leading me to work on diverse projects—from personal endeavors and team activities in Columbia University's boot camp
@@ -13,6 +16,7 @@ export default function Info() {
             This portfolio reflects my dedication and proficiency in HTML, CSS, JavaScript, web APIs, server-side APIs, Node.js,
             OOP, Express, SQL, ORM, MVC, Regex, Mongoose, PWA, React, and MERN applications. I invite you to explore my work and welcome any feedback or inquiries.
             </p>
+            </div>
         </div>
     );
 }
