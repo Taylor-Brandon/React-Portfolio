@@ -2,14 +2,13 @@ import React, { useState } from 'react';
 
 const Header = () => {
   return (
-    <div>
+    <div className='navbar-content'>
       <nav>
-      <h1>Name</h1>
-          <ul>
-            <li>Info</li>
-            <li>Projects</li>
-            <li>Resume</li>
-            <li>Contact</li>
+          <ul className='navbar-list'>
+            <li href="info" className='nav-item'>Info</li>
+            <li href="projects" className='nav-item'>Projects</li>
+            <li href="resume" className='nav-item'>Resume</li>
+            <li href="contact" className='nav-item'>Contact</li>
           </ul>
       </nav>
     </div>
