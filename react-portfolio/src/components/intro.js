@@ -2,9 +2,12 @@ import React, { useState } from 'react';
 
 export default function Intro() {
     return (
-        <div>
-            <h1 id='name'>HI, I'M TAYLOR</h1>
-            <a href='#info'>Get to know me</a>
+        <div className='intro-section'>
+            <h1 id='name'>Taylor Brandon</h1>
+            <h2 id='title'>Web Developer | 2024</h2>
+            <div className='btn-area'>
+            <a id='info-btn' href='#info'>Get to know me</a>
+            </div>
         </div>
     );
 }
