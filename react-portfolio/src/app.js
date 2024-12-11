@@ -6,6 +6,7 @@ import Portfolio from './components/portfolio';
 import Contact from './components/contact';
 import Resume from './components/resume';
 import Footer from './components/footer';
+import '../src/styles/style.css';
 
 
 export default function App() {

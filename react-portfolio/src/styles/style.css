@@ -1,4 +1,24 @@
-
+.navbar-content{
+    display: flex;
+    justify-content: center;
+}
+.navbar-list{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    list-style: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.nav-item{
+    margin-right: 30px;
+    padding: 20px;
+    transition: all 0.5s ease-out;
+}
+.nav-item:hover{
+    font-size: 20px;
+}
 
   
 
