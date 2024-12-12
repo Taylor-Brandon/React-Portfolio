@@ -4,7 +4,7 @@ import Profile from '../images/profile.png';
 export default function Info() {
     return (
         <div>
-            <img id='profile-img' src={Profile}></img>
+            <img id='profile-img' src={Profile} alt="Image of myself"></img>
             <div className='text-section'>
             <p>Thank you for taking the time to visit my website. My name is Taylor Brandon, and for nearly two years,
              I've been dedicated to mastering full-stack development. My journey began with an eagerness to learn and quickly adapt,
