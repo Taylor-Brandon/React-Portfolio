@@ -94,6 +94,21 @@
 #card-footer{
     border-top: 2px dotted black;
 }
+.contact-form{
+    width: 25%;
+}
+#contact-btn{
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+
+
+
+
+
+
+
+
 .nav-item:hover {
     font-size: 20px;
 }
@@ -139,8 +154,27 @@
 .project-items:hover::before {
     opacity: 1;
 }
-
-  
+#contact-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: -6px;
+    bottom: -6px;
+    border-bottom: 1px dotted black;
+    border-right: 1px dotted black;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+#contact-btn:hover::before {
+    opacity: 1;
+}
+#contact-btn:hover{
+    background-color: black;
+    color: white;
+    transform: translateY(-2px);
+}
 
 
 
