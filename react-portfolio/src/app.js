@@ -14,10 +14,16 @@ export default function App() {
         <div>
             <Header />
             <Intro />
+            <div id='info'>
             <Info />
+            </div>
+            <div id='projects'>
             <Portfolio />
-            <div className='later-section'>
+            </div>
+                <div id='contact'>
             <Contact />
+            </div>
+            <div id='resume'>
             <Resume />
             </div>
             <Footer />
