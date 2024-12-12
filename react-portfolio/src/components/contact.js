@@ -5,7 +5,7 @@ export default function Contact() {
         <div>
         <div className='contact-area'>
         <div className='contact-form'>
-            <form className='card' action="https://formspree.io/f/mqakojqz" method="POST">
+            <form className='card border-black' action="https://formspree.io/f/mqakojqz" method="POST">
                 <div className='card-header bg-black text-white'>
                 <h3 id='contact-header'>Contact</h3>
                 </div>
