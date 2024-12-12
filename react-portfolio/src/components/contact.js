@@ -18,7 +18,7 @@ export default function Contact() {
                 <input className='form-control border-black' type='text' name='message' placeholder='Message'/>
                 <label for="floatingInput">Your Message</label>
                 </div>
-                <button id='contact-btn' className='btn mt-3 border border-black' type="submit">Send</button>
+                <button id='contact-btn' className='btn mt-4 border border-black' type="submit">Send</button>
                 </div>
             </form>
         </div>

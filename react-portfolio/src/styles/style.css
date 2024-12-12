@@ -14,130 +14,73 @@
 .nav-item {
     margin-right: 30px;
     padding: 20px;
-    transition: font-size 0.5s ease-out;
+    transition: font-size 0.3s ease-out, color 0.3s ease-out;
 }
-#name{
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease-out;
+}
+.nav-item:hover {
+    font-size: 20px;
+}
+#name {
     text-align: center;
     font-size: 50px;
     margin-top: 40px;
 }
-#title{
+
+#title {
     text-align: center;
     margin-top: 20px;
     font-size: 25px;
 }
-.btn-area{
+.btn-area {
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
-#info-btn{
-    text-decoration: none;
-    border: 1px solid black;
-    border-radius: 10px;
-    position: relative;
-    padding: 10px;
-    color: black;
-    transition: all 0.5s ease-out;
-}
-#profile-img{
+#profile-img {
     width: 250px;
     height: 300px;
     border-radius: 150px;
     margin-top: 100px;
     margin-left: 330px;
 }
-.text-section{
+.text-section {
     display: flex;
     justify-content: end;
     margin-left: 750px;
     margin-right: 250px;
     margin-top: -280px;
 }
-#info-btn {
-    text-decoration: none;
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 10px;
-    color: black;
-    position: relative;
-    transition: background-color 0.5s ease-out, color 0.5s ease-out, transform 0.5s ease-out;
-}
-.projects{
+.projects {
     margin-top: 100px;
 }
-#projectArea-header{
+
+#projectArea-header {
     text-align: center;
 }
-.project-list{
+
+.project-list {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
     margin-right: 30px;
-
 }
 .project-items {
     width: 25%;
     margin-top: 40px;
     margin-right: 40px;
-    position: relative; 
-    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
-}
-.project-links{
-    text-decoration: none;
-}
-.card-header{
-    background-color: black;
-}
-#card-footer{
-    border-top: 2px dotted black;
-}
-.contact-form{
-    width: 25%;
-}
-#contact-btn{
-    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
-}
-
-
-
-
-
-
-
-
-
-.nav-item:hover {
-    font-size: 20px;
-}
-#info-btn:hover {
-    background-color: black;
-    color: white;
-    transform: translateY(-2px);
-}
-
-#info-btn::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: -6px;
-    bottom: -6px;
-    border-bottom: 1px dotted black;
-    border-right: 1px dotted black;
-    border-radius: 10px;
-    opacity: 0;
-    transition: opacity 0.5s ease-out;
-}
-#info-btn:hover::before {
-    opacity: 1;
+    position: relative;
+    transition: transform 0.3s ease-out;
 }
 .project-items:hover {
     transform: translateY(-2px);
 }
-.project-items:before {
+.project-items::before {
     content: "";
     position: absolute;
     top: 0;
@@ -147,13 +90,56 @@
     border-bottom: 1px dotted black;
     border-right: 1px dotted black;
     border-radius: 10px;
-    opacity: 0;
-    transition: opacity 0.5s ease-out;
+    visibility: hidden;
+    transition: visibility 0s, transform 0.3s ease-out;
 }
-
 .project-items:hover::before {
-    opacity: 1;
+    visibility: visible;
+    transform: scale(1.05);
 }
+.project-links{
+    text-decoration: none;
+}
+.contact-area {
+    display: flex;
+    justify-content: end;
+    margin-right: 400px;
+}
+.contact-form {
+    width: 25%;
+    margin-top: 100px;
+}
+.card-header {
+    background-color: black;
+}
+#card-footer {
+    border-top: 2px dotted black;
+}
+.resume-area {
+    margin-top: -250px;
+    margin-left: 400px;
+}
+#down-btn {
+    font-size: 25px;
+    margin-left: 140px;
+}
+#info-btn,
+#contact-btn {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    position: relative;
+    transition: transform 0.3s ease-out, background-color 0.3s ease-out, color 0.3s ease-out;
+}
+#info-btn:hover,
+#contact-btn:hover {
+    transform: translateY(-2px);
+    background-color: black;
+    color: white;
+}
+#info-btn::before,
 #contact-btn::before {
     content: "";
     position: absolute;
@@ -164,17 +150,12 @@
     border-bottom: 1px dotted black;
     border-right: 1px dotted black;
     border-radius: 10px;
-    opacity: 0;
-    transition: opacity 0.5s ease-out;
+    visibility: hidden;
+    transition: visibility 0s, transform 0.3s ease-out;
 }
+#info-btn:hover::before,
 #contact-btn:hover::before {
-    opacity: 1;
+    visibility: visible;
+    transform: scale(1.05); 
 }
-#contact-btn:hover{
-    background-color: black;
-    color: white;
-    transform: translateY(-2px);
-}
-
-
 
