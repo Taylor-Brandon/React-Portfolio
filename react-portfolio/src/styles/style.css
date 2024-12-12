@@ -158,4 +158,8 @@
     visibility: visible;
     transform: scale(1.05); 
 }
-
+.footer-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
