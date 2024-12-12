@@ -1,10 +1,26 @@
-import React from 'react';
+import React from "react";
 
 export default function Resume() {
+    const onButtonClick = () => {
+       
+        const fileUrl = "/resume.pdf"; 
+        const link = document.createElement("a");
+        link.href = fileUrl;
+        link.download = "Taylor_Brandon_Resume.pdf"; 
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+
     return (
-        <div>
-            <h1>Resume comming soon!</h1>
-            <i className=" fs-3 p-2 bi bi-box-arrow-down"></i>
+        <div className="resume-area">
+            <h1>Download Resume</h1>
+            <button onClick={onButtonClick} className="btn">
+                <i id="down-btn" className="bi bi-file-earmark-arrow-down"></i>
+            </button>
         </div>
     );
 }
+
+
+
