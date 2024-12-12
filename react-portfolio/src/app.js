@@ -16,8 +16,10 @@ export default function App() {
             <Intro />
             <Info />
             <Portfolio />
+            <div className='later-section'>
             <Contact />
             <Resume />
+            </div>
             <Footer />
         </div>
     );
