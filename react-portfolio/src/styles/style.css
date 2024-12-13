@@ -31,7 +31,7 @@
 #name {
     text-align: center;
     font-size: 50px;
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
 #title {
@@ -45,21 +45,22 @@
     margin-top: 20px;
 }
 #profile-img {
-    width: 250px;
-    height: 300px;
+    width: 300px;
+    height: 380px;
     border-radius: 150px;
-    margin-top: 100px;
+    margin-top: 300px;
     margin-left: 330px;
 }
 .text-section {
     display: flex;
     justify-content: end;
-    margin-left: 750px;
+    margin-left: 780px;
     margin-right: 250px;
-    margin-top: -280px;
+    margin-bottom: 300px;
+    margin-top: -340px;
 }
 .projects {
-    margin-top: 100px;
+    margin-bottom: 200px;
 }
 
 #projectArea-header {
@@ -122,6 +123,7 @@
 .resume-area {
     margin-top: -250px;
     margin-left: 400px;
+    margin-bottom: 300px;
 }
 #down-btn {
     font-size: 25px;
@@ -166,4 +168,151 @@
     display: flex;
     justify-content: center;
     margin-top: 250px;
+}
+@media (max-width: 1429px) {
+    #profile-img {
+        margin-left: 200px;
+    }
+    .text-section{
+        margin-right: 100px;
+        margin-left: 600px;
+    }
+    .contact-area{
+        margin-right: 200px;
+    }
+    .resume-area{
+        margin-left: 350px;
+    }
+}
+@media (max-width: 1300px) {
+    #profile-img{
+        margin-left: 100px;
+    }
+    .text-section{
+        margin-left: 500px;
+    }
+    .contact-area{
+        margin-right: 100px;
+    }
+    .resume-area{
+        margin-left: 250px;
+    }
+}
+@media (max-width: 960px) {
+    #profile-img{
+        width: 200px;
+        height: 250px;
+    }
+    .text-section{
+        font-size: 12px;
+        margin-left: 400px;
+    }
+    .project-items{
+        width: 30%;
+    }
+    .contact-area{
+        margin-right: 70px;
+    }
+    .contact-form{
+        width: 35%;
+    }
+    .resume-area{
+        margin-left: 100px;
+    }
+}
+@media (max-width: 800px){
+    #profile-img{
+        width: 200px;
+        height: 250px;
+        margin-left: 50px;
+    }
+    .text-section{
+        margin-left: 350px;
+    }
+    .contact-area {
+        margin-right: 50px;
+    }
+    .contact-form{
+        width: 40%
+    }
+    .resume-area{
+        margin-left: 50px;
+        font-size: 15px;
+    }
+    .project-items{
+        width: 35%;
+    }
+}
+@media (max-width: 710px) {
+    #profile-img {
+        width: 170px;
+        height: 210px;
+        margin-left: 35px;
+    }
+    .text-section {
+        font-size: 11px;
+        margin-left: 300px;
+    }
+    #resume-header{
+        font-size: 20px;
+    }
+    #down-btn{
+        margin-left: 70px;
+    }
+    .project-items{
+        width: 45%;
+    }
+}
+@media (max-width: 615px) {
+    .nav-item{
+        font-size: 10px;
+        padding: 10px;
+    }
+    #profile-img{
+        width: 130px;
+        height: 170px;
+        margin-left: 30px;
+    }
+    .text-section{
+        margin-left: 230px;
+        font-size: 10px;
+    }
+    .project-items{
+        width: 50%;
+    }
+}
+@media (max-width: 520px) {
+    #profile-img{
+        width: 100px;
+        height: 150px;
+        margin-left: 20px;
+    }
+    .text-section{
+        margin-left: 200px;
+        margin-right: 50px;
+        font-size: 9px;
+    }
+    #resume-header{
+        font-size: 17px;
+    }
+    .contact-area {
+        margin-right: 10px;
+    }
+    .contact-form{
+        width: 50%
+    }
+    #down-btn{
+        margin-left: 40px;
+    }
+    .project-items{
+        width: 60%;
+    }
+}
+@media (max-width: 460px) {
+    #resume-header{
+        font-size: 10px;
+    }
+    #down-btn{
+        margin-left: 20px;
+    }
 }
