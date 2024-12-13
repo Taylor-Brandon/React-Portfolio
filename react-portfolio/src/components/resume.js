@@ -14,7 +14,7 @@ export default function Resume() {
 
     return (
         <div className="resume-area">
-            <h1>Download Resume</h1>
+            <h1 id="resume-header">Download Resume</h1>
             <button onClick={onButtonClick} className="btn">
                 <i id="down-btn" className="bi bi-file-earmark-arrow-down"></i>
             </button>

@@ -5,9 +5,9 @@ export default function Footer() {
         <div className='footer-section'>
         <div className='footer-links'>
             <a className='fs-3 text-black p-5' href="https://github.com/Taylor-Brandon"><i className="bi bi-github"></i></a>
-            <a className='fs-3 text-black p-5' href="https://stackoverflow.com/users/25215047/taylor-brandon"><i className="bi bi-linkedin"></i></a>
-            <a className='fs-3 text-black p-5' href="https://www.linkedin.com/in/taylor-brandon-714787254/"><i className="bi bi-stack-overflow"></i></a>
-            <a className='fs-3 text-black p-5' href="https://taylor.brandon22545@gmail.com"><i className="bi bi-envelope"></i></a>
+            <a className='fs-3 text-black p-5' href="https://stackoverflow.com/users/25215047/taylor-brandon"><i className="bi bi-stack-overflow"></i></a>
+            <a className='fs-3 text-black p-5' href="https://www.linkedin.com/in/taylor-brandon-31541a341/"><i className="bi bi-linkedin"></i></a>
+            <a className='fs-3 text-black p-5' href="mailto:taylor.brandon22545@gmail.com"><i className="bi bi-envelope"></i></a>
         </div>
         </div>
     );
