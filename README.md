@@ -2,20 +2,19 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-
-## Description
-
-This project showcases the use of the React library to develop a professional portfolio for developers. It is designed to provide recruiters and employers with easy access to my work, information, and achievements.
-
 ## Table of Contents
-* [Description](#Description)
+* [Introduction](#Introduction)
 * [Installation](#Installation)
+* [Features](#Features)
 * [Usage](#Usage)
 * [License](#License)
 * [Contributions](#Contributions)
 * [Tests](#Tests)
 * [Questions](#Questions)
 
+## Introduction
+
+This React porfolio application is desgined to demonstrate a consise, scalable website that provides employers and fellow developers with contact information, a short personal introductory paragraph and photo, a downloadable resume, and a list of skills as well as projects to showcase proficiency in them.
 
 ## Installation
 This project can be accessed via the live demo link or locally by following these steps:
@@ -24,6 +23,9 @@ This project can be accessed via the live demo link or locally by following thes
 2. Install the necessary dependencies by running npm install.
 3. Start the application by running npm run start in your terminal.
 
+## Features
+
+* 
 ## Usage
 When the portfolio is rendered, users can navigate through the website using the navigation links by clicking the menu icon in the top right corner. This allows them to scroll through the various sections of the site.
 
