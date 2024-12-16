@@ -59,6 +59,113 @@
     margin-bottom: 300px;
     margin-top: -340px;
 }
+.skill-area{
+    display: flex;
+    justify-content: center;
+}
+#skill-header{
+    text-align: center;
+}
+.central-line {
+    width: 2px;
+    height: 500px; 
+    margin-left: 245px;
+    margin-top: 40px;
+    background-color: black;
+    position: relative;
+}
+.lang{
+    position: relative;
+    top: -450px;
+    left: 250px;
+    transition: font-size 0.3s ease-out, color 0.3s ease-out;
+}
+.lang-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: -40px;
+    margin-left: 150px;
+}
+.lang-items{
+    list-style: none;
+    margin-left: 20px;
+}
+.frame{
+    position: relative;
+    top: -400px;
+    left: 30px;
+    transition: font-size 0.3s ease-out, color 0.3s ease-out;
+}
+.frame-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -390px;
+    margin-top: -40px;
+    transform: scale(1.2);
+}
+.frame-items{
+    list-style: none;
+    margin-right: 20px;
+}
+.database{
+    position: relative;
+    top: -350px;
+    left: 250px;
+    transition: font-size 0.3s ease-out, color 0.3s ease-out;
+}
+.data-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: -40px;
+    margin-left: 170px;
+}
+.data-items{
+    list-style: none;
+    margin-right: 20px;
+}
+.others{
+    position: relative;
+    top: -300px;
+    left: 35px;
+    transition: font-size 0.3s ease-out, color 0.3s ease-out;
+}
+#other-header{
+    position: relative;
+   right: -90px;
+}
+.other-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: -40px;
+    margin-left: -520px;
+    transform: scale(1.2);
+}
+.other-items{
+    list-style: none;
+    margin-left: 20px;
+}
+.lang:hover{
+    font-size: 20px;
+}
+.frame:hover{
+    font-size: 20px;
+}
+.database:hover{
+    font-size: 20px;
+}
+.others:hover{
+    font-size: 17px;
+}
+.other-list:hover{
+    margin-left: -560px;
+}
+.frame-list:hover{
+    margin-left: -440px;
+}
 .projects {
     margin-bottom: 200px;
 }
@@ -183,6 +290,32 @@
     .resume-area{
         margin-left: 350px;
     }
+   .skills-headers{
+    font-size: 20px;
+   }
+   .lang-list{
+        margin-left: 100px;
+        margin-top: -30px;
+   }
+   .frame{
+    left: 90px;
+   }
+   .frame-list{
+    margin-top: -30px;
+   }
+   .data-list{
+    margin-left: 120px;
+    margin-top: -30px;
+   }
+   .other-list{
+    margin-top: -30px;
+   }
+   #skill-header{
+    margin-right: -45px;
+   }
+   .skill-area{
+    margin-right: -120px;
+   }
 }
 @media (max-width: 1300px) {
     #profile-img{
@@ -196,6 +329,41 @@
     }
     .resume-area{
         margin-left: 250px;
+    }
+    .skill-area{
+        margin-right: -130px;
+       }
+    .skills-headers{
+        font-size: 15px;
+    }
+    .lang-list{
+        font-size: 10px;
+        margin-left: 60px;
+        margin-top: -25px;
+    }
+    .frame{
+        left: 130px;
+    }
+    .frame-list{
+        font-size: 10px;
+        margin-left: -280px;
+        margin-top: -25px;
+    }
+    .data-list{
+        font-size: 10px;
+        margin-left: 80px;
+        margin-top: -25px;
+    }
+    .others{
+        left: 85px;
+    }
+    .other-list{
+        font-size: 10px;
+        margin-left: -345px;
+        margin-top: -25px;
+    }
+    #skill-header{
+        margin-left: 130px;
     }
 }
 @media (max-width: 960px) {
@@ -219,6 +387,30 @@
     .resume-area{
         margin-left: 100px;
     }
+    .skill-area{
+        margin-right: 20px;
+       }
+       .skills-headers{
+        font-size: 10px;
+    }
+    .lang-list{
+        margin-left: 30px;
+        margin-top: -20px;
+    }
+    .frame-list{
+        margin-top: -20px;
+    }
+    .data-list{
+        margin-top: -20px;
+        margin-left: 50px;
+    }
+    .other-list{
+        margin-top: -20px;
+    }
+    #skill-header{
+        margin-right: -70px;
+    }
+
 }
 @media (max-width: 800px){
     #profile-img{
@@ -241,6 +433,20 @@
     }
     .project-items{
         width: 35%;
+    }
+    .lang-list{
+        flex-direction: column;
+    }
+    .frame-list{
+        flex-direction: column;
+        margin-left: -80px;
+    }
+    .data-list{
+        flex-direction: column;
+    }
+    .other-list{
+        flex-direction: column;
+        margin-left: -80px;
     }
 }
 @media (max-width: 710px) {
@@ -280,6 +486,9 @@
     .project-items{
         width: 50%;
     }
+    .skill-area{
+        margin-right: 100px;
+    }
 }
 @media (max-width: 520px) {
     #profile-img{
@@ -314,5 +523,8 @@
     }
     #down-btn{
         margin-left: 20px;
+    }
+    .skill-area{
+        margin-right: 200px;
     }
 }
