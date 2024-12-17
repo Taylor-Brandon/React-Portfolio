@@ -8,7 +8,7 @@ export default function Portfolio() {
         {name: 'Employee Database', description: 'Database that allows access and management to employee information', tech: 'MySQL and Object Relational Mapping', link: 'https://github.com/Taylor-Brandon/Employee-Database'},
         {name: 'Project Planner', description: 'Agenda that allows users to organize their day and save their information', tech: 'React, Third Party Api, Bulma, and Local Storage', link: 'https://github.com/Taylor-Brandon/Project-Planner-Refactor'},
         {name: 'Blog Website', description: 'Blog application that allows user to publish their programming thoughts', tech: 'Model, View, Controler Organization, SQL, Express, Node.js, and Handlebars', link: 'https://github.com/Taylor-Brandon/Blog-Website'},
-        {name: 'Text Editor Application', description: 'Progressive Web Application that serves are a text editor that is downloadable and works offline', tech: 'Express, Webpack, HTML Webpack Plugins, CSS Extract Plugins, Inject Manifest, Webpack Manifest, Babel-Loader', link: 'https://github.com/Taylor-Brandon/Text-Editor-Application'},
+        {name: 'Text Editor Application', description: 'Progressive Web Application that serves are a text editor that is downloadable and works offline', tech: 'Express, Webpack, HTML Webpack Plugins, CSS Extract Plugins, Inject Manifest, Webpack Manifest, Babel-Loader', link: 'https://text-editor-app-74b27f1d557f.herokuapp.com/'},
     ]);
     console.log(projects);
 

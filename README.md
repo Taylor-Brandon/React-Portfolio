@@ -41,6 +41,7 @@ This React portfolio application is designed to demonstrate a concise, scalable 
 * Google Fonts
 
 ## Installation
+
 This project can be accessed via the live demo link or locally by following these steps:
 
 1. Clone the repository to your local machine.
@@ -62,18 +63,23 @@ Navigate to the application
 ## Screenshots 
 
 ### Navigation
+
 ![Screenshot 1](./react-portfolio/src/images/port1.png)
 
 ### Info Section
+
 ![Screenshot 2](./react-portfolio/src/images/port2.png)
 
 ### Skills Section
+
 ![Screenshot 3](./react-portfolio/src/images/port5.png)
 
 ### Projects Section
+
 ![Screenshot 4](./react-portfolio/src/images/port3.png)
 
 ### Contact, Resume, and Footer Sections
+
 ![Screenshot 5](./react-portfolio/src/images/port4.png)
 
 ## Future Developments
