@@ -101,9 +101,10 @@ If there are any questions or feedback, feel free to reach out via:
 Special thanks to Columbia Bootcamps for providing the educational resources necessary to complete this project.
 
 ## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Demo
+
+Naviagte to Demo: [Here](https://taylor-brandon.github.io/React-Portfolio/)
 
 
     
