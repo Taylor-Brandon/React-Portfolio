@@ -3,7 +3,7 @@ import React from "react";
 export default function Resume() {
     const onButtonClick = () => {
        
-        const fileUrl = "/resume.pdf"; 
+        const fileUrl = "/Resume.pdf"; 
         const link = document.createElement("a");
         link.href = fileUrl;
         link.download = "Taylor_Brandon_Resume.pdf"; 
