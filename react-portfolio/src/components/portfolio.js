@@ -9,6 +9,7 @@ export default function Portfolio() {
         {name: 'Project Planner', description: 'Agenda that allows users to organize their day and save their information', tech: 'React, Third Party Api, Bulma, and Local Storage', link: 'https://taylor-brandon.github.io/Project-Planner-Refactor/'},
         {name: 'Blog Website', description: 'Blog application that allows user to publish their programming thoughts', tech: 'Model, View, Controler Organization, SQL, Express, Node.js, and Handlebars', link: 'https://mysterious-woodland-92307-fc6df31f4737.herokuapp.com/'},
         {name: 'Text Editor Application', description: 'Progressive Web Application that serves are a text editor that is downloadable and works offline', tech: 'Express, Webpack, HTML Webpack Plugins, CSS Extract Plugins, Inject Manifest, Webpack Manifest, Babel-Loader', link: 'https://text-editor-app-74b27f1d557f.herokuapp.com/'},
+        {name: 'Weather App', description: 'This is a React application that allows users to receive current and future weather conditions for a searched city', tech: 'React, Bulma, Local Storage, Dotenv, OpenWeatherMap API, Google Fonts', link: 'https://taylor-brandon.github.io/Weather-App-Refactor/' }
     ]);
     console.log(projects);
 
