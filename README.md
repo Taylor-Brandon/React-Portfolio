@@ -106,7 +106,7 @@ Special thanks to Columbia Bootcamps for providing the educational resources nec
 
 ## Demo
 
-Naviagate to Demo: [Here](https://taylor-brandon.github.io/React-Portfolio/)
+Navigate to Demo: [Here](https://taylor-brandon.github.io/React-Portfolio/)
 
 
     
