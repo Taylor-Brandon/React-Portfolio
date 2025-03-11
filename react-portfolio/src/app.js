@@ -2,7 +2,6 @@ import React from 'react';
 import Header from './components/header';
 import Intro from './components/intro';
 import Info from './components/info';
-import Skills from './components/skills';
 import Portfolio from './components/portfolio';
 import Contact from './components/contact';
 import Resume from './components/resume';
@@ -17,9 +16,6 @@ export default function App() {
             <Intro />
             <div id='info'>
             <Info />
-            </div>
-            <div className='skill-area'>
-                <Skills />
             </div>
             <div id='projects'>
             <Portfolio />
